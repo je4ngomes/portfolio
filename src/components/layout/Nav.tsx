@@ -3,27 +3,19 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const navItems = [
-  {
-    name: "About",
-    href: "#about",
-  },
-  {
-    name: "Skills",
-    href: "#skills",
-  },
-  {
-    name: "Experience",
-    href: "#experience",
-  },
-];
+interface NavProps {
+  items: {
+    name: string;
+    href: string;
+  }[];
+}
 
-export default function Nav() {
+export default function Nav({ items }: NavProps) {
   const [activeItem, setActiveItem] = useState<number>(0);
 
   return (
     <nav className="flex flex-col mt-16 space-y-2 text-txt-secundary">
-      {navItems.map((item, index) => (
+      {items.map((item, index) => (
         <Link
           key={item.name}
           href={item.href}

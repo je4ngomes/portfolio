@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("/fonts/icomoon.eot?dnfnp9");
+  src: url("/fonts/icomoon.eot?dnfnp9#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?dnfnp9") format("truetype"),
+    url("/fonts/icomoon.woff?dnfnp9") format("woff"),
+    url("/fonts/icomoon.svg?dnfnp9#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "\e900";
+}
+.icon-git:before {
+  content: "\e901";
+}
+.icon-github:before {
+  content: "\e902";
+}
+.icon-python:before {
+  content: "\e903";
+}
+.icon-googlegemini:before {
+  content: "\e904";
+}
+.icon-openai:before {
+  content: "\e905";
+}
+.icon-postgresql:before {
+  content: "\e906";
+}
+.icon-nestjs:before {
+  content: "\e907";
+}
+.icon-react:before {
+  content: "\e908";
+}
+.icon-mongodb:before {
+  content: "\e909";
+}
+.icon-amazonwebservices:before {
+  content: "\e90a";
+}
+.icon-redis:before {
+  content: "\e90b";
+}
+.icon-n8n:before {
+  content: "\e90c";
+}
+.icon-nodedotjs:before {
+  content: "\e90d";
+}
+.icon-typescript:before {
+  content: "\e90e";
+}
+.icon-javascript:before {
+  content: "\e90f";
+}

@@ -1,20 +1,31 @@
-import Nav from "../Nav/Nav";
+import Nav from "../layout/Nav";
+
+import HeaderProfile from "./HeaderProfile";
 
 export default function Header() {
+  const headerNavItems = [
+    {
+      name: "About",
+      href: "#about",
+    },
+    {
+      name: "Skills",
+      href: "#skills",
+    },
+    {
+      name: "Experience",
+      href: "#experience",
+    },
+  ];
+
   return (
     <header className="flex flex-col justify-start pt-24 pl-12 sticky top-0">
-      <div>
-        <h1 className="text-4xl font-bold text-txt-primary sm:text-5xl">
-          Jean Gomes
-        </h1>
-        <h2 className="mt-2 text-lg font-medium text-txt-primary sm:text-xl">
-          Software Developer
-        </h2>
-        <p className="mt-4 max-w-md leading-normal text-txt-secundary">
-          I enjoy building things that live on the internet.
-        </p>
-      </div>
-      <Nav />
+      <HeaderProfile
+        name="Jean Gomes"
+        role="Software Developer"
+        description="I enjoy building things that live on the internet."
+      />
+      <Nav items={headerNavItems} />
     </header>
   );
 }
