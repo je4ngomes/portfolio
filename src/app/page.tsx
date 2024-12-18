@@ -1,5 +1,5 @@
 import AboutSection from "@/components/Sections/AboutSection";
-import SkillsSection from "@/components/Sections/SkillSection/SkillSection";
+import SkillSection from "@/components/Sections/Skill/SkillSection";
 import SectionDivider from "@/components/layout/SectionDivider";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex w-full flex-col gap-6 items-center sm:items-start">
       <AboutSection />
       <SectionDivider title="Skills" />
-      <SkillsSection />
+      <SkillSection />
       <SectionDivider title="Experience" />
     </main>
   );

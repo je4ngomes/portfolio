@@ -1,8 +1,8 @@
 import Marquee from "react-fast-marquee";
-import SkillItem from "./SkillSectionItem";
-import { skills } from "./SkillSection-utils";
+import SkillItem from "./SkillItem";
+import { skills } from "./Skill-utils";
 
-export default function SkillsSection() {
+export default function SkillSection() {
   return (
     <section id="skills" className="flex flex-col w-[96%] self-center">
       <Marquee gradient={false} speed={40} play={true}>
