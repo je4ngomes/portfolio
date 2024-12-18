@@ -16,7 +16,7 @@ export default function DirectMedia() {
   ];
 
   return (
-    <div className="flex flex-row justify-start pl-12 space-x-4 fixed bottom-[10%]">
+    <div className="flex flex-row mt-4 justify-center xl:justify-start xl:pl-12 xl:fixed xl:bottom-[10%] space-x-4">
       {socialMedia.map((media, index) => (
         <Link key={index} href={media.href} target="_blank">
           <Icon

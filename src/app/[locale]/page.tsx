@@ -9,7 +9,7 @@ export default function App() {
   const t = useTranslations();
 
   return (
-    <main className="flex w-[90%] flex-col gap-6 items-center sm:items-start">
+    <main className="flex xl:w-[90%] flex-col gap-6 items-center px-8 md:px-0">
       <AboutSection />
 
       <SectionDivider id="skills" title={t("skills.title")} />

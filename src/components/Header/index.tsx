@@ -26,7 +26,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="flex flex-col justify-start mt-24 pl-12 fixed top-0">
+    <header className="flex flex-col justify-start mt-24 xl:pl-12 xl:fixed xl:top-0 px-8 md:px-0">
       <HeaderProfile
         name={t("name")}
         role={t("role")}
