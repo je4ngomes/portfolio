@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import "@/styles/globals.css";
 import "@/styles/icon.css";
@@ -112,6 +113,7 @@ export default async function RootLayout({
             </div>
           </div>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
