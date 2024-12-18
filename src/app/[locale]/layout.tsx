@@ -16,7 +16,7 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
-export const englishMetadata: Metadata = {
+const englishMetadata: Metadata = {
   title: "Jean Jesus",
   description:
     "Jean Jesus is a Software Engineer, building scalable web solutions that drive impact and innovation.",
@@ -43,7 +43,7 @@ export const englishMetadata: Metadata = {
   },
 };
 
-export const portugueseMetadata: Metadata = {
+const portugueseMetadata: Metadata = {
   title: "Jean De Jesus",
   description:
     "Jean De Jesus é um Engenheiro de Software, construindo soluções web escaláveis que impulsionam impacto e inovação.",
@@ -73,7 +73,7 @@ export const portugueseMetadata: Metadata = {
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: Lang };
+  params: Promise<{ locale: Lang }>;
 }) {
   const { locale } = await params;
 
@@ -89,7 +89,7 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: Lang };
+  params: Promise<{ locale: Lang }>;
 }) {
   const { locale } = await params;
 
