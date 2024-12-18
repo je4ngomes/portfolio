@@ -19,10 +19,10 @@ export default function Header() {
       name: "menu.experience",
       href: "#experience",
     },
-    {
-      name: "menu.projects",
-      href: "#projects",
-    },
+    // {
+    //   name: "menu.projects",
+    //   href: "#projects",
+    // },
   ];
 
   return (
