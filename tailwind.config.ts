@@ -18,8 +18,6 @@ export default {
       indigo: colors.indigo,
       yellow: colors.yellow,
       slate: colors.slate,
-      "txt-primary": colors.slate[200],
-      "txt-secundary": colors.gray[400],
     },
     extend: {
       colors: {

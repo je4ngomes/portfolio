@@ -1,4 +1,4 @@
-import Nav from "../layout/Nav";
+import Nav from "../Layout/Nav";
 
 import HeaderProfile from "./HeaderProfile";
 

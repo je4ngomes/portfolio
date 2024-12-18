@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Icon, { IconName } from "../layout/Icon";
+import Icon, { IconName } from "../Layout/Icon";
 
 export default function DirectMedia() {
   const socialMedia = [

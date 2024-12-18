@@ -2,7 +2,7 @@ import AboutSection from "@/components/Sections/AboutSection";
 import ExperienceSection from "@/components/Sections/Experience/ExperienceSection";
 import ProjectSection from "@/components/Sections/ProjectSection";
 import SkillSection from "@/components/Sections/Skill/SkillSection";
-import SectionDivider from "@/components/layout/SectionDivider";
+import SectionDivider from "@/components/Layout/SectionDivider";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
-import Timeline from "@/components/layout/Timeline";
-import { ITimelineItemData } from "@/components/layout/Timeline/types/ITimelineItem";
+import Timeline from "@/components/Layout/Timeline";
+import { ITimelineItemData } from "@/components/Layout/Timeline/types/ITimelineItem";
 
 export default function ExperienceSection() {
   const timelineData: ITimelineItemData[] = [
@@ -12,8 +12,8 @@ export default function ExperienceSection() {
         "TypeScript",
         "AWS Lambda",
         "Node.js",
+        "Python",
         "PostgreSQL",
-        "SQL",
         "n8n",
         "NestJS",
         "JavaScript",
@@ -37,7 +37,6 @@ export default function ExperienceSection() {
         "JavaScript",
         "GraphQL",
         "n8n",
-        "SQL",
         "TypeScript",
         "Hasura",
       ],

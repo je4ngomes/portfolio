@@ -1,6 +1,6 @@
 "use client";
 
-import Icon from "@/components/layout/Icon";
+import Icon from "@/components/Layout/Icon";
 import { ISkill } from "./types/ISkill";
 import { Tooltip } from "react-tooltip";
 

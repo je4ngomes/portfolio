@@ -1,4 +1,4 @@
-import { IconName } from "@/components/layout/Icon";
+import { IconName } from "@/components/Layout/Icon";
 
 export interface ISkill {
   color: string;
