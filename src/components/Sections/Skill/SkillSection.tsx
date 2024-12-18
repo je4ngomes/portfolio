@@ -4,7 +4,7 @@ import { skills } from "./Skill-utils";
 
 export default function SkillSection() {
   return (
-    <section id="skills" className="flex flex-col w-[96%] self-center">
+    <section className="flex flex-col w-[96%] self-center">
       <Marquee gradient={false} speed={40} play={true}>
         <div className="flex flex-row">
           {skills.map((skill, index) => (

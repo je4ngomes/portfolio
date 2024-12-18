@@ -1,12 +1,12 @@
 "use client";
 
 import Icon from "@/components/layout/Icon";
-import { Skill } from "./types/Skill";
+import { ISkill } from "./types/ISkill";
 import { Tooltip } from "react-tooltip";
 
 interface SkillItemProps {
   isEven: boolean;
-  skill: Skill;
+  skill: ISkill;
 }
 
 export default function SkillItem({ isEven, skill }: SkillItemProps) {

@@ -1,27 +1,22 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="flex flex-col pt-24 space-y-8">
-      <p className="max-w-lg leading-normal text-txt-secundary">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+    <section id="about" className="flex flex-col mt-8 space-y-8 w-full">
+      <p className="leading-normal text-txt-secundary">
+        I am a seasoned software developer with experience in designing and
+        delivering scalable solutions on web systems. Over the years, I have
+        progressed from focusing on reusable components and API integrations to
+        leading the development of robust features and architectures. My
+        expertise includes guiding teams, conducting code reviews, and
+        implementing best practices to ensure high-quality software solutions.
       </p>
-      <p className="max-w-lg leading-normal text-txt-secundary">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+      <p className="leading-normal text-txt-secundary">
+        Beyond traditional development, I have been building knowledge in
+        automation processes and exploring the potential of large language
+        models (LLMs) to develop AI-driven agents and solutions. This journey
+        includes learning to optimize workflows, enhance system efficiency, and
+        integrate intelligent capabilities into applications. I thrive in
+        collaborative environments, working closely with cross-functional teams
+        to deliver innovative, reliable, and impactful software products.
       </p>
     </section>
   );

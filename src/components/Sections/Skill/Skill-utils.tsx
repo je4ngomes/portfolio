@@ -1,6 +1,6 @@
-import { Skill } from "./types/Skill";
+import { ISkill } from "./types/ISkill";
 
-export const skills: Skill[] = [
+export const skills: ISkill[] = [
   { iconName: "typescript", color: "#3178C6", label: "TypeScript" },
   { iconName: "javascript", color: "#dec819", label: "JavaScript" },
   { iconName: "postgresql", color: "#4169E1", label: "PostgreSQL" },

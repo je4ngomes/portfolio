@@ -16,14 +16,18 @@ export default function Header() {
       name: "Experience",
       href: "#experience",
     },
+    {
+      name: "Projects",
+      href: "#projects",
+    },
   ];
 
   return (
-    <header className="flex flex-col justify-start pt-24 pl-12 sticky top-0">
+    <header className="flex flex-col justify-start mt-24 pl-12 fixed top-0">
       <HeaderProfile
-        name="Jean Gomes"
+        name="Jean De Jesus"
         role="Software Developer"
-        description="I enjoy building things that live on the internet."
+        description="I enjoy building things that live on the internet, creating scalable web solutions that drive impact and innovation."
       />
       <Nav items={headerNavItems} />
     </header>
