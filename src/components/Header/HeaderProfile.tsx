@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface HeaderProfileProps {
   name: string;
   role: string;
@@ -10,12 +12,17 @@ export default function HeaderProfile({
   description,
 }: HeaderProfileProps) {
   return (
-    <div>
-      <h1 className="text-4xl font-bold text-slate-200 sm:text-5xl">{name}</h1>
-      <h2 className="mt-2 text-lg font-medium text-slate-200 sm:text-xl">
-        {role}
-      </h2>
-      <p className="mt-4 max-w-md leading-normal text-gray-400">
+    <div className="flex flex-col justify-center items-center">
+      <Image
+        className="w-28 h-28 rounded-full border-4 border-slate-200"
+        width={460}
+        height={460}
+        src="/assets/avatar.jpg"
+        alt="Jean De Jesus"
+      />
+      <h1 className="font-bold text-slate-200 text-3xl">{name}</h1>
+      <h2 className="text-lg font-medium text-slate-200">{role}</h2>
+      <p className="mt-2 max-w-md leading-normal text-gray-400 text-center">
         {description}
       </p>
     </div>

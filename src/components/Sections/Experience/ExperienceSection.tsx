@@ -4,10 +4,11 @@ import { ITimelineItemData } from "@/components/Layout/Timeline/types/ITimelineI
 export default function ExperienceSection() {
   const timelineData: ITimelineItemData[] = [
     {
-      date: "2024 - Present",
-      title: "Senior Developer Analyst, Ecglobal for Business",
-      description:
-        "Design and develop scalable features and services while providing technical guidance and support to the team. Collaborate with cross-functional teams to ensure high-quality solutions, conduct code reviews, and advocate for best practices in software development and system architecture.",
+      id: "1",
+      date: "experience.jobs.1.date",
+      title: "experience.jobs.1.title",
+      company: "experience.jobs.1.company",
+      description: "experience.jobs.1.description",
       tags: [
         "TypeScript",
         "AWS Lambda",
@@ -22,13 +23,14 @@ export default function ExperienceSection() {
         "React.js",
         "React Native",
       ],
-      link: "https://business.ecglobal.com/en/",
+      link: "experience.jobs.1.link",
     },
     {
-      date: "2022 - 2023",
-      title: "Mid-Level Developer Analyst, Ecglobal for Business",
-      description:
-        "Contributed to the design and maintenance of backend services, supported application migrations to monorepo architectures, and automated workflows to enhance efficiency. Implementing security improvements, and collaborating across teams to deliver effective solutions.",
+      id: "2",
+      date: "experience.jobs.2.date",
+      title: "experience.jobs.2.title",
+      company: "experience.jobs.2.company",
+      description: "experience.jobs.2.description",
       tags: [
         "React.js",
         "React Native",
@@ -40,13 +42,14 @@ export default function ExperienceSection() {
         "TypeScript",
         "Hasura",
       ],
-      link: "https://business.ecglobal.com/en/",
+      link: "experience.jobs.2.link",
     },
     {
-      date: "2020 - 2022",
-      title: "Junior Developer Analyst, Ecglobal for Business",
-      description:
-        "Focused on frontend development with React and React Native, creating reusable components and integrating APIs. Supported backend feature development and maintenance while contributing to the delivery of reliable and user-focused applications.",
+      id: "3",
+      date: "experience.jobs.3.date",
+      title: "experience.jobs.3.title",
+      company: "experience.jobs.3.company",
+      description: "experience.jobs.3.description",
       tags: [
         "React.js",
         "React Native",
@@ -57,7 +60,7 @@ export default function ExperienceSection() {
         "Hasura",
         "Neo4j",
       ],
-      link: "https://business.ecglobal.com/en/",
+      link: "experience.jobs.3.link",
     },
   ];
 

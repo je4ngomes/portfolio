@@ -1,0 +1,70 @@
+{
+  "about": {
+    "first_paragraph": "I’m a seasoned software developer passionate about creating scalable web systems that merge thoughtful design with robust engineering. Over the years, I’ve focused on developing reusable components and API integrations while contributing to the design and implementation of reliable features and architectures. My work emphasizes collaboration and ensuring best practices to deliver high-performance and user-focused solutions.",
+    "second_paragraph": "Beyond traditional development, I have been building knowledge in automation processes and exploring the potential of large language models (LLMs) to develop AI-driven agents and solutions. This journey includes learning to optimize workflows, enhance system efficiency, and integrate intelligent capabilities into applications. I thrive in collaborative environments, working closely with cross-functional teams to deliver innovative, reliable, and impactful software products."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": {
+      "1": {
+        "date": "2023 - Present",
+        "title": "Senior Developer Analyst",
+        "company": "Ecglobal for Business",
+        "description": "Design and develop scalable features and services while providing technical guidance and support to the team. Collaborate with cross-functional teams to ensure high-quality solutions, conduct code reviews, and advocate for best practices in software development and system architecture.",
+        "link": "https://business.ecglobal.com/en/"
+      },
+      "2": {
+        "date": "2022 - 2023",
+        "title": "Mid-Level Developer Analyst",
+        "company": "Ecglobal for Business",
+        "description": "Contributed to the design and maintenance of backend services, supported application migrations to monorepo architectures, and automated workflows to enhance efficiency. Implementing security improvements, and collaborating across teams to deliver effective solutions.",
+        "tags": [
+          "React.js",
+          "React Native",
+          "Node.js",
+          "PostgreSQL",
+          "JavaScript",
+          "GraphQL",
+          "n8n",
+          "TypeScript",
+          "Hasura"
+        ],
+        "link": "https://business.ecglobal.com/en/"
+      },
+      "3": {
+        "date": "2020 - 2022",
+        "title": "Junior Developer Analyst",
+        "company": "Ecglobal for Business",
+        "description": "Focused on frontend development with React and React Native, creating reusable components and integrating APIs. Supported backend feature development and maintenance while contributing to the delivery of reliable and user-focused applications.",
+        "tags": [
+          "React.js",
+          "React Native",
+          "Node.js",
+          "PostgreSQL",
+          "GraphQL",
+          "TypeScript",
+          "Hasura",
+          "Neo4j"
+        ],
+        "link": "https://business.ecglobal.com/en/"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "menu": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
+  "profile": {
+    "name": "Jean Jesus",
+    "role": "Software Developer",
+    "description": "I enjoy building things that live on the internet, creating scalable web solutions that drive impact and innovation."
+  }
+}

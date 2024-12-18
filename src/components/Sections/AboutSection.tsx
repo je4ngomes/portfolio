@@ -1,23 +1,12 @@
+import { useTranslations } from "next-intl";
+
 export default function AboutSection() {
+  const t = useTranslations("about");
+
   return (
     <section id="about" className="flex flex-col mt-8 space-y-8 w-full">
-      <p className="leading-normal text-gray-400">
-        I am a seasoned software developer with experience in designing and
-        delivering scalable solutions on web systems. Over the years, I have
-        progressed from focusing on reusable components and API integrations to
-        leading the development of robust features and architectures. My
-        expertise includes guiding teams, conducting code reviews, and
-        implementing best practices to ensure high-quality software solutions.
-      </p>
-      <p className="leading-normal text-gray-400">
-        Beyond traditional development, I have been building knowledge in
-        automation processes and exploring the potential of large language
-        models (LLMs) to develop AI-driven agents and solutions. This journey
-        includes learning to optimize workflows, enhance system efficiency, and
-        integrate intelligent capabilities into applications. I thrive in
-        collaborative environments, working closely with cross-functional teams
-        to deliver innovative, reliable, and impactful software products.
-      </p>
+      <p className="leading-normal text-gray-400">{t("first_paragraph")}</p>
+      <p className="leading-normal text-gray-400">{t("second_paragraph")}</p>
     </section>
   );
 }

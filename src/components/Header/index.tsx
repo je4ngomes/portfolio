@@ -1,23 +1,26 @@
+import { useTranslations } from "next-intl";
 import Nav from "../Layout/Nav";
 
 import HeaderProfile from "./HeaderProfile";
 
 export default function Header() {
+  const t = useTranslations("profile");
+
   const headerNavItems = [
     {
-      name: "About",
+      name: "menu.about",
       href: "#about",
     },
     {
-      name: "Skills",
+      name: "menu.skills",
       href: "#skills",
     },
     {
-      name: "Experience",
+      name: "menu.experience",
       href: "#experience",
     },
     {
-      name: "Projects",
+      name: "menu.projects",
       href: "#projects",
     },
   ];
@@ -25,9 +28,9 @@ export default function Header() {
   return (
     <header className="flex flex-col justify-start mt-24 pl-12 fixed top-0">
       <HeaderProfile
-        name="Jean De Jesus"
-        role="Software Developer"
-        description="I enjoy building things that live on the internet, creating scalable web solutions that drive impact and innovation."
+        name={t("name")}
+        role={t("role")}
+        description={t("description")}
       />
       <Nav items={headerNavItems} />
     </header>

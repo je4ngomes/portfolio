@@ -1,0 +1,70 @@
+{
+  "about": {
+    "first_paragraph": "Sou um desenvolvedor de software apaixonado por criar sistemas web escaláveis que unem design cuidadoso com engenharia robusta. Ao longo dos anos, concentrei-me no desenvolvimento de componentes reutilizáveis e integrações de APIs, contribuindo para o design e a implementação de recursos confiáveis e arquiteturas sólidas. Meu trabalho enfatiza a colaboração e a aplicação de boas práticas para entregar soluções de alto desempenho e focadas no usuário.",
+    "second_paragraph": "Além do desenvolvimento tradicional, tenho construído conhecimento em processos de automação e explorado o potencial de modelos de linguagem de grande porte (LLMs) para criar agentes e soluções orientados por inteligência artificial. Essa jornada inclui otimizar fluxos de trabalho, aumentar a eficiência de sistemas e integrar capacidades inteligentes em aplicações. Valorizo ambientes colaborativos, trabalhando de perto com equipes multifuncionais para entregar produtos de software inovadores, confiáveis e impactantes."
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "experience": {
+    "title": "Experiência",
+    "jobs": {
+      "1": {
+        "date": "2023 - Presente",
+        "title": "Analista Desenvolvedor Sênior",
+        "company": "Ecglobal for Business",
+        "description": "Desenhar e desenvolver funcionalidades e serviços escaláveis, fornecendo orientação técnica e suporte à equipe. Colaborar com equipes multifuncionais para garantir soluções de alta qualidade, realizar revisões de código e promover boas práticas no desenvolvimento de software e na arquitetura de sistemas.",
+        "link": "https://business.ecglobal.com/pt/"
+      },
+      "2": {
+        "date": "2022 - 2023",
+        "title": "Analista Desenvolvedor Pleno",
+        "company": "Ecglobal for Business",
+        "description": "Contribuí para o design e a manutenção de serviços backend, apoiei migrações de aplicações para arquiteturas de monorepos e automatizei fluxos de trabalho para melhorar a eficiência. Implementei melhorias de segurança e colaborei com equipes para entregar soluções eficazes.",
+        "tags": [
+          "React.js",
+          "React Native",
+          "Node.js",
+          "PostgreSQL",
+          "JavaScript",
+          "GraphQL",
+          "n8n",
+          "TypeScript",
+          "Hasura"
+        ],
+        "link": "https://business.ecglobal.com/pt/"
+      },
+      "3": {
+        "date": "2020 - 2022",
+        "title": "Analista Desenvolvedor Júnior",
+        "company": "Ecglobal for Business",
+        "description": "Focado no desenvolvimento frontend com React e React Native, criando componentes reutilizáveis e integrando APIs. Apoiei o desenvolvimento e a manutenção de funcionalidades no backend, contribuindo para a entrega de aplicações confiáveis e centradas no usuário.",
+        "tags": [
+          "React.js",
+          "React Native",
+          "Node.js",
+          "PostgreSQL",
+          "GraphQL",
+          "TypeScript",
+          "Hasura",
+          "Neo4j"
+        ],
+        "link": "https://business.ecglobal.com/pt/"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos"
+  },
+  "menu": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "projects": "Projetos"
+  },
+  "profile": {
+    "name": "Jean de Jesus",
+    "role": "Desenvolvedor de Software",
+    "description": "Gosto de criar soluções que vivem na internet, desenvolvendo sistemas web escaláveis que geram impacto e inovação."
+  }
+}

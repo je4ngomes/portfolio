@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -11,6 +12,8 @@ interface NavProps {
 }
 
 export default function Nav({ items }: NavProps) {
+  const t = useTranslations();
+
   const [activeItem, setActiveItem] = useState<number>(0);
 
   return (
@@ -19,14 +22,14 @@ export default function Nav({ items }: NavProps) {
         <Link
           key={item.name}
           href={item.href}
-          className={`text-lg ${
+          className={`text-md ${
             activeItem === index
               ? "text-slate-200 font-medium"
               : "text-gray-400 hover:text-slate-200"
           } transition duration-150 ease-out hover:ease-in`}
           onClick={() => setActiveItem(index)}
         >
-          {item.name}
+          {t(item.name)}
         </Link>
       ))}
     </nav>

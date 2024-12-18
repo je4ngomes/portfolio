@@ -12,6 +12,7 @@
     "dayjs": "^1.11.13",
     "flowbite": "^2.5.2",
     "next": "15.1.0",
+    "next-intl": "^3.26.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-fast-marquee": "^1.6.5",
