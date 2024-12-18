@@ -78,10 +78,10 @@ export async function generateMetadata({
   const { locale } = await params;
 
   if (locale === "pt") {
-    return englishMetadata;
+    return portugueseMetadata;
   }
 
-  return portugueseMetadata;
+  return englishMetadata;
 }
 
 export default async function RootLayout({
