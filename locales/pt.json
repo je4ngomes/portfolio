@@ -65,6 +65,9 @@
   "profile": {
     "name": "Jean de Jesus",
     "role": "Desenvolvedor de Software",
-    "description": "Gosto de criar soluções que vivem na internet, desenvolvendo sistemas web escaláveis que geram impacto e inovação."
+    "description": "Minha missão é criar soluções digitais, desenvolvendo sistemas web escaláveis que geram valor e inovação."
+  },
+  "footer": {
+    "copyright": "© {year} Jean de Jesus"
   }
 }

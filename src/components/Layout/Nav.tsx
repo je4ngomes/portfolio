@@ -17,7 +17,7 @@ export default function Nav({ items }: NavProps) {
   const [activeItem, setActiveItem] = useState<number>(0);
 
   return (
-    <nav className="hidden xl:flex flex-col mt-16 space-y-2 text-gray-400 w-fit">
+    <nav className="hidden xl:flex flex-col mt-24 space-y-2 text-gray-400 w-fit">
       {items.map((item, index) => (
         <Link
           key={item.name}

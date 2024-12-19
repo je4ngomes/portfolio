@@ -4,6 +4,7 @@ import ExperienceSection from "@/components/Sections/Experience/ExperienceSectio
 import SkillSection from "@/components/Sections/Skill/SkillSection";
 import SectionDivider from "@/components/Layout/SectionDivider";
 import { useTranslations } from "next-intl";
+import Footer from "@/components/Footer";
 
 export default function App() {
   const t = useTranslations();
@@ -20,6 +21,7 @@ export default function App() {
 
       {/* <SectionDivider id="projects" title={t("projects.title")} />
       <ProjectSection /> */}
+      <Footer />
     </main>
   );
 }
