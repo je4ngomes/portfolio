@@ -17,6 +17,29 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
+const icons: Metadata["icons"] = [
+  {
+    url: "/android-chrome-192x192.png",
+    sizes: "192x192",
+    type: "image/png",
+    rel: "icon",
+  },
+  {
+    url: "/android-chrome-512x512.png",
+    sizes: "512x512",
+    type: "image/png",
+    rel: "icon",
+  },
+  {
+    url: "/apple-touch-icon.png",
+    sizes: "180x180",
+    type: "image/png",
+    rel: "apple",
+  },
+  { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png", rel: "icon" },
+  { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png", rel: "icon" },
+];
+
 const englishMetadata: Metadata = {
   title: "Jean Jesus",
   description:
@@ -33,6 +56,7 @@ const englishMetadata: Metadata = {
     "postgresql",
     "nodejs",
   ],
+  icons,
   openGraph: {
     images: [{ url: "https://jeanjesus.dev/assets/avatar.jpg" }],
     title: "Jean Jesus | Software Engineer",
@@ -60,6 +84,7 @@ const portugueseMetadata: Metadata = {
     "postgresql",
     "nodejs",
   ],
+  icons,
   openGraph: {
     images: [{ url: "https://jeanjesus.dev/assets/avatar.jpg" }],
     title: "Jean De Jesus | Engenheiro de Software",
