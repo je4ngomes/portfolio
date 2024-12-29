@@ -1,6 +1,6 @@
 import AboutSection from "@/components/Sections/AboutSection";
 import ExperienceSection from "@/components/Sections/Experience/ExperienceSection";
-// import ProjectSection from "@/components/Sections/ProjectSection";
+import ProjectSection from "@/components/Sections/Project/ProjectSection";
 import SkillSection from "@/components/Sections/Skill/SkillSection";
 import SectionDivider from "@/components/Layout/SectionDivider";
 import { useTranslations } from "next-intl";
@@ -19,8 +19,8 @@ export default function App() {
       <SectionDivider id="experience" title={t("experience.title")} />
       <ExperienceSection />
 
-      {/* <SectionDivider id="projects" title={t("projects.title")} />
-      <ProjectSection /> */}
+      <SectionDivider id="projects" title={t("project.title")} />
+      <ProjectSection />
       <Footer />
     </main>
   );

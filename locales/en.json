@@ -53,8 +53,14 @@
       }
     }
   },
-  "projects": {
-    "title": "Projects"
+  "project": {
+    "title": "Projects",
+    "projects": {
+      "1": {
+        "title": "Knowledge Base API with n8n and OpenAI",
+        "description": "Knowledge Base API for managing documents, audio, and images, built with n8n workflows, MinIO S3 for storage, PostgreSQL for vectors and metadata, and OpenAI for embeddings."
+      }
+    }
   },
   "menu": {
     "about": "About",

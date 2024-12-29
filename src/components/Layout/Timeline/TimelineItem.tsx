@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ITimelineItemData } from "./types/ITimelineItem";
-import TimelineChips from "./TimelineChips";
+import Chips from "../Chip/Chips";
 import { useTranslations } from "next-intl";
 
 interface TimelineItemProps {
@@ -31,7 +31,7 @@ export default function TimelineItem({ item }: TimelineItemProps) {
         <p className="text-base font-normal text-slate-200">
           {t(item.description)}
         </p>
-        <TimelineChips id={item.id} tags={item.tags} maxChips={4} />
+        <Chips id={item.id} tags={item.tags} maxChips={4} />
       </div>
     </li>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import Chip from "../Chip";
+import ChipItem from "./ChipItem";
 import { Tooltip } from "react-tooltip";
 
 interface TimelineChipsProps {
@@ -9,11 +9,7 @@ interface TimelineChipsProps {
   maxChips?: number;
 }
 
-export default function TimelineChips({
-  id,
-  tags = [],
-  maxChips,
-}: TimelineChipsProps) {
+export default function Chips({ id, tags = [], maxChips }: TimelineChipsProps) {
   const chipsToDisplay = maxChips ? tags.slice(0, maxChips) : tags;
   const moreChips = maxChips ? tags.slice(maxChips) : [];
   const tooltipId = `tooltip-more-tags-${id}`;
@@ -21,11 +17,13 @@ export default function TimelineChips({
   return (
     <div className="flex flex-wrap gap-2 mt-2">
       {chipsToDisplay &&
-        chipsToDisplay.map((tag, index) => <Chip key={index} label={tag} />)}
+        chipsToDisplay.map((tag, index) => (
+          <ChipItem key={index} label={tag} />
+        ))}
       {moreChips.length > 0 && (
         <>
           <div className="cursor-default" data-tooltip-id={tooltipId}>
-            <Chip
+            <ChipItem
               label={`+${moreChips.length}`}
               className="bg-[#352032] font-medium"
             />

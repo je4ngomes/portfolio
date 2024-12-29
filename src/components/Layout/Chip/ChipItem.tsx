@@ -1,9 +1,9 @@
-interface ChipProps {
+interface ChipItemProps {
   label: string;
   className?: string;
 }
 
-export default function Chip({ label, className = "" }: ChipProps) {
+export default function ChipItem({ label, className = "" }: ChipItemProps) {
   return (
     <div
       className={`

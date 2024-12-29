@@ -53,8 +53,14 @@
       }
     }
   },
-  "projects": {
-    "title": "Projetos"
+  "project": {
+    "title": "Projetos",
+    "projects": {
+      "1": {
+        "title": "API de Base de Conhecimento com n8n e OpenAI",
+        "description": "API de Base de Conhecimento para gerenciar documentos, áudios e imagens, construída usando n8n, MinIO S3 para armazenamento, PostgreSQL para vetores e metadados, e OpenAI para embeddings."
+      }
+    }
   },
   "menu": {
     "about": "Sobre",
