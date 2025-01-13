@@ -1,6 +1,6 @@
 {
   "about": {
-    "first_paragraph": "I’m a seasoned software developer passionate about creating scalable web systems that merge thoughtful design with robust engineering. Over the years, I’ve focused on developing reusable components and API integrations while contributing to the design and implementation of reliable features and architectures. My work emphasizes collaboration and ensuring best practices to deliver high-performance and user-focused solutions.",
+    "first_paragraph": "I’m a seasoned software engineer passionate about creating scalable web systems that merge thoughtful design with robust engineering. Over the years, I’ve focused on developing reusable components and API integrations while contributing to the design and implementation of reliable features and architectures. My work emphasizes collaboration and ensuring best practices to deliver high-performance and user-focused solutions.",
     "second_paragraph": "Beyond traditional development, I have been building knowledge in automation processes and exploring the potential of large language models (LLMs) to develop AI-driven agents and solutions. This journey includes learning to optimize workflows, enhance system efficiency, and integrate intelligent capabilities into applications."
   },
   "skills": {
@@ -70,7 +70,7 @@
   },
   "profile": {
     "name": "Jean Jesus",
-    "role": "Software Developer",
+    "role": "Software Engineer",
     "description": "I enjoy building things that live on the internet, creating scalable web solutions that drive impact and innovation."
   },
   "footer": {
